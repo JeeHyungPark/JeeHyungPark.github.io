@@ -1,0 +1,122 @@
+body{
+    margin : 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+.container{
+    text-align:center;
+    width: 960px;
+    margin : 0 auto;
+}
+
+
+/* nav bar style */
+nav{
+    height : 50px;
+    background-color: lightcoral;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+nav h1{
+    float: left;
+    font-size: 28px;
+    line-height: 180%;
+    margin : 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: inline;
+}
+
+nav ul a{
+    float: right;
+    text-decoration: none;
+    width: 60px;
+    line-height: 50%;
+    color: white;
+}
+
+nav ul a:hover{
+    color: coral;
+}
+
+/*article*/
+
+article table{
+    border: 1px solid #444444;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family : 'Nanum Myeongjo', serif;
+}
+article tr, td{
+    border: 1px solid #444444;
+    width: 200px;
+    text-align: center;
+}
+#me{
+    height: 400px; width: 400px;
+}
+.short{
+    background-color: #ffcd28;
+    width: 100px;
+}
+.long{
+    width: 300px;
+}
+/*footer*/
+footer{
+    background-color : lightgray;
+    font-family : 'Nanum Myeongjo', serif;
+    text-align : center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*service*/
+header table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family : 'Jua', sans-serif;
+}
+header tr{
+    margin-left: auto;
+    margin-right: auto;
+    font-family : 'Jua', sans-serif;
+}
+header td{
+    margin-left: auto;
+    margin-right: auto;
+    font-family : 'Jua', sans-serif;
+}
+header h1{
+    display: inline-block;
+}
+
+#service_head{
+    background-color: #ffe0c6;
+}
+#mart{
+    color: purple;
+}
+#status{
+    color: red;
+}
+.service_info{
+    background-color: sandybrown;
+}
+
+/*photo*/
+.section_img{
+    width : 300px;
+    float : left;
+    margin : 50px 10px 50px 10px;
+}
+
+section{
+    font-family: 'Nanum Myeongjo', serif;
+}
